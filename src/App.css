@@ -1,16 +1,21 @@
 :root {
-  --background: whitesmoke;
+  --background: black;
   --body: #dacdfb;
 }
 
 body {
   background-color: var(--background);
+  color: #7952b3;
   margin: 30px auto;
   max-width: 600px;
 }
 
 h1 {
   text-align: center;
+}
+
+.align-left {
+  text-align: left;
 }
 
 input {
@@ -21,4 +26,14 @@ input {
   font-size: 17px;
   text-align: center;
   font-style: italic;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7952b3;
+  text-decoration: underline;
 }
