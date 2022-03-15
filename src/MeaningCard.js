@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MeaningCard() {
   return (
-    <div class="card bg-dark">
+    <div class="card bg-dark mb-4">
       <div class="card-body">
         <h3 class="card-title">verb</h3>
         <p class="card-text">
