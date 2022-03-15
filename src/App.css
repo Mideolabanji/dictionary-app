@@ -41,3 +41,8 @@ a:hover {
 img {
   width: 50% !important;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}

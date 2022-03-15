@@ -5,7 +5,7 @@ export default function MeaningCard() {
     <div className="card bg-dark mb-4">
       <div className="card-body">
         <h3 className="card-title">verb</h3>
-        <div className="card-text">
+        <div className="card-text mb-2">
           regard with disgust and hatred.{" "}
           <div>"he abhorred sexism in every form"</div>
         </div>
