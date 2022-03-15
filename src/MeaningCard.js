@@ -2,14 +2,14 @@ import React from "react";
 
 export default function MeaningCard() {
   return (
-    <div class="card bg-dark mb-4">
-      <div class="card-body">
-        <h3 class="card-title">verb</h3>
-        <p class="card-text">
+    <div className="card bg-dark mb-4">
+      <div className="card-body">
+        <h3 className="card-title">verb</h3>
+        <div className="card-text">
           regard with disgust and hatred.{" "}
           <div>"he abhorred sexism in every form"</div>
-        </p>
-        <p>
+        </div>
+        <div>
           Similar: <a href="/">detest</a>, <a href="/">hate</a>,{" "}
           <a href="">loath</a>, <a href="">despise</a>, <a href="">abominate</a>
           , <a href="">execrate</a>,{" "}
@@ -20,7 +20,7 @@ export default function MeaningCard() {
             Opposite: <a href="">love</a>, <a href="">admire</a>,{" "}
             <a className="text-muted">delight in</a>
           </div>
-        </p>
+        </div>
       </div>
     </div>
   );
