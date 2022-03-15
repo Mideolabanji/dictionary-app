@@ -10,14 +10,20 @@ export default function MeaningCard() {
           <div>"he abhorred sexism in every form"</div>
         </div>
         <div>
-          Similar: <a href="/">detest</a>, <a href="/">hate</a>,{" "}
-          <a href="">loath</a>, <a href="">despise</a>, <a href="">abominate</a>
-          , <a href="">execrate</a>,{" "}
+          Similar: <a href="https://olamide-olabanji.netlify.app/">detest</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">hate</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">loath</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">despise</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">abominate</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">execrate</a>,{" "}
           <a className="text-muted">regard with disgust</a>,{" "}
-          <a className="text-muted">find intolerable</a>, <a href="">dislike</a>
-          , <a href="">disdain</a>, <a href="">disrelish</a>
+          <a className="text-muted">find intolerable</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">dislike</a>,{" "}
+          <a href="https://olamide-olabanji.netlify.app/">disdain</a>,{" "}
+          <a href="">disrelish</a>
           <div>
-            Opposite: <a href="">love</a>, <a href="">admire</a>,{" "}
+            Opposite: <a href="https://olamide-olabanji.netlify.app/">love</a>,{" "}
+            <a href="https://olamide-olabanji.netlify.app/">admire</a>,{" "}
             <a className="text-muted">delight in</a>
           </div>
         </div>
