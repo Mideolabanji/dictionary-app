@@ -31,7 +31,7 @@ export default function MeaningCard() {
           </a>
           , <a href="https://olamide-olabanji.netlify.app/">dislike</a>,{" "}
           <a href="https://olamide-olabanji.netlify.app/">disdain</a>,{" "}
-          <a href="">disrelish</a>
+          <a href="https://olamide-olabanji.netlify.app/">disrelish</a>
           <div>
             Opposite: <a href="https://olamide-olabanji.netlify.app/">love</a>,{" "}
             <a href="https://olamide-olabanji.netlify.app/">admire</a>,{" "}
