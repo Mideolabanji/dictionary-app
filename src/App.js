@@ -1,11 +1,11 @@
 import "./App.css";
-import Body from "./Body";
+import InputGroup from "./InputGroup";
 
 export default function App() {
   return (
     <div className="App">
       <h1 className="mb-3">Dictionary App</h1>
-      <Body />
+      <InputGroup />
     </div>
   );
 }
