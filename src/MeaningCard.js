@@ -16,15 +16,31 @@ export default function MeaningCard() {
           <a href="https://olamide-olabanji.netlify.app/">despise</a>,{" "}
           <a href="https://olamide-olabanji.netlify.app/">abominate</a>,{" "}
           <a href="https://olamide-olabanji.netlify.app/">execrate</a>,{" "}
-          <a className="text-muted">regard with disgust</a>,{" "}
-          <a className="text-muted">find intolerable</a>,{" "}
-          <a href="https://olamide-olabanji.netlify.app/">dislike</a>,{" "}
+          <a
+            className="text-muted"
+            href="https://olamide-olabanji.netlify.app/"
+          >
+            regard with disgust
+          </a>
+          ,{" "}
+          <a
+            href="https://olamide-olabanji.netlify.app/"
+            className="text-muted"
+          >
+            find intolerable
+          </a>
+          , <a href="https://olamide-olabanji.netlify.app/">dislike</a>,{" "}
           <a href="https://olamide-olabanji.netlify.app/">disdain</a>,{" "}
           <a href="">disrelish</a>
           <div>
             Opposite: <a href="https://olamide-olabanji.netlify.app/">love</a>,{" "}
             <a href="https://olamide-olabanji.netlify.app/">admire</a>,{" "}
-            <a className="text-muted">delight in</a>
+            <a
+              className="text-muted"
+              href="https://olamide-olabanji.netlify.app/"
+            >
+              delight in
+            </a>
           </div>
         </div>
       </div>
