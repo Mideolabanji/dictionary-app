@@ -37,12 +37,3 @@ a:hover {
   color: #7952b3;
   text-decoration: underline;
 }
-
-img {
-  width: 50% !important;
-}
-
-.flex {
-  display: flex;
-  justify-content: space-evenly;
-}
