@@ -5,9 +5,16 @@ import Body from "./Body";
 export default function InputGroup() {
   let [keyword, setKeyword] = useState(null);
 
-  function handleSubmit(event) {
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+
+  function handleSearch(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword}`);
+    alert(`Searching for ${keyword}...`);
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function updateKeywordDetails(event) {
@@ -16,7 +23,7 @@ export default function InputGroup() {
 
   return (
     <div className="InputGroup">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSearch}>
         <input
           onChange={updateKeywordDetails}
           type="search"
