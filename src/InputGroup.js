@@ -4,9 +4,12 @@ import Body from "./Body";
 
 export default function InputGroup() {
   let [keyword, setKeyword] = useState(null);
+  let [data, setData] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data);
+    console.log(response.data[0].meanings[0].partOfSpeech);
+    console.log(response.data[0].phonetic);
+    setData(response.data[0]);
   }
 
   function handleSearch(event) {
@@ -28,10 +31,10 @@ export default function InputGroup() {
           onChange={updateKeywordDetails}
           type="search"
           placeholder="Search for a word..."
-          className="mb-5"
+          className="mb-5 search"
         />
       </form>
-      <Body />
+      <Body property={data} />
     </div>
   );
 }

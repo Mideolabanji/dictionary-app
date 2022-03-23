@@ -26,6 +26,13 @@ input {
   font-size: 17px;
   text-align: center;
   font-style: italic;
+  color: white;
+}
+
+input:focus {
+  color: var(--body);
+  border: none;
+  border-bottom: 2px solid var(--body);
 }
 
 a {
