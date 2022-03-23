@@ -1,4 +1,5 @@
 import React from "react";
+import Thesaurus from "./Thesaurus";
 
 export default function MeaningCard(props) {
   return (
@@ -22,6 +23,7 @@ export default function MeaningCard(props) {
             </div>
           );
         })}
+        <Thesaurus property={props.property} />
         <div>
           Similar: <a href="https://olamide-olabanji.netlify.app/">detest</a>,{" "}
           <a href="https://olamide-olabanji.netlify.app/">hate</a>,{" "}
