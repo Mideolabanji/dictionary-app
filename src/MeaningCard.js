@@ -1,14 +1,27 @@
 import React from "react";
 
-export default function MeaningCard() {
+export default function MeaningCard(props) {
   return (
     <div className="card bg-dark mb-4">
       <div className="card-body">
-        <h3 className="card-title">verb</h3>
-        <div className="card-text mb-2">
-          regard with disgust and hatred.{" "}
-          <div>"he abhorred sexism in every form"</div>
-        </div>
+        {props.property.meanings.map(function (meaning, index) {
+          console.log(meaning);
+          return (
+            <div key={index}>
+              <h3 className="card-title">{meaning.partOfSpeech}</h3>
+              {meaning.definitions.map(function (definition, index) {
+                return (
+                  <div className="card-text mb-2" key={index}>
+                    {definition.definition}
+                    <div>
+                      <em>{definition.example}</em>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })}
         <div>
           Similar: <a href="https://olamide-olabanji.netlify.app/">detest</a>,{" "}
           <a href="https://olamide-olabanji.netlify.app/">hate</a>,{" "}

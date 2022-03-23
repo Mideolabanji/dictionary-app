@@ -8,7 +8,7 @@ export default function Body(props) {
       <div className="Body">
         <h1 className="align-left">{props.property.word}</h1>
         <p className="mb-4">{props.property.phonetic}</p>
-        <MeaningCard />
+        <MeaningCard property={props.property} />
         <ImageCard />
       </div>
     );
