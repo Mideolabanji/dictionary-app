@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Body from "./Body";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function InputGroup() {
   let [keyword, setKeyword] = useState(null);
@@ -29,6 +31,7 @@ export default function InputGroup() {
           placeholder="Search for a word..."
           className="mb-5 search"
         />
+        <FontAwesomeIcon icon={faMagnifyingGlass} size="1x" />
       </form>
       <Body property={data} />
     </div>
