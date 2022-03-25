@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Synonyms(props) {
-  console.log(props.property);
   if (props.property.length >= 1) {
     return (
       <div className="Synonyms">
