@@ -38,6 +38,7 @@ input:focus {
   border: none;
   border-bottom: 2px solid var(--accent-color);
   width: 90%;
+  outline: none;
 }
 
 a {
