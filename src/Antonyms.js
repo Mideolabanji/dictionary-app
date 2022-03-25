@@ -6,7 +6,11 @@ export default function Antonyms(props) {
       <div>
         <strong>Opposite:</strong>{" "}
         {props.property.map(function (antonym, index) {
-          return <span key={index}>{antonym} </span>;
+          return (
+            <span key={index} className="thesaurus">
+              {antonym}{" "}
+            </span>
+          );
         })}
       </div>
     );

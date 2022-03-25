@@ -15,7 +15,7 @@ h1 {
   text-align: center;
 }
 
-.align-left {
+.word {
   text-align: left;
 }
 
@@ -23,7 +23,6 @@ input {
   background: transparent;
   border: none;
   border-bottom: 2px solid var(--accent-color);
-  /*padding: 2px 180px; */
   font-size: 17px;
   text-align: center;
   font-style: italic;
@@ -42,7 +41,6 @@ input:focus {
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
@@ -66,4 +64,8 @@ small {
 
 .icon {
   font-size: 18px;
+}
+
+.thesaurus {
+  margin-right: 5px;
 }

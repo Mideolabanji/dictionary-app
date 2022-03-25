@@ -6,7 +6,11 @@ export default function Synonyms(props) {
       <div className="Synonyms mb-2">
         <strong>Similar:</strong>{" "}
         {props.property.map(function (synonym, index) {
-          return <span key={index}>{synonym} </span>;
+          return (
+            <span key={index} className="thesaurus">
+              {synonym}{" "}
+            </span>
+          );
         })}
       </div>
     );
