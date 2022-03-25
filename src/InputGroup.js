@@ -7,8 +7,6 @@ export default function InputGroup() {
   let [data, setData] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0].meanings[0].partOfSpeech);
-    console.log(response.data[0].phonetic);
     setData(response.data[0]);
   }
 

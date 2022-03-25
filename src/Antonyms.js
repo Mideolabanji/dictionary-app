@@ -4,7 +4,7 @@ export default function Antonyms(props) {
   if (props.property.length >= 1) {
     return (
       <div>
-        Opposite:{" "}
+        <strong>Opposite:</strong>{" "}
         {props.property.map(function (antonym, index) {
           return <span key={index}>{antonym} </span>;
         })}

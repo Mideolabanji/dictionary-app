@@ -7,7 +7,6 @@ export default function MeaningCard(props) {
     <div className="card bg-dark mb-4">
       <div className="card-body">
         {props.property.meanings.map(function (meaning, index) {
-          console.log(meaning);
           return (
             <div key={index}>
               <h3 className="card-title">{meaning.partOfSpeech}</h3>

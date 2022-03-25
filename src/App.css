@@ -44,3 +44,7 @@ a:hover {
   color: #7952b3;
   text-decoration: underline;
 }
+
+.audio {
+  padding-left: 0;
+}
