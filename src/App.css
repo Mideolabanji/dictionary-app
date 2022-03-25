@@ -1,11 +1,12 @@
 :root {
   --background: black;
-  --body: #dacdfb;
+  --accent-color: #dacdfb;
+  --body-color: #7952b3;
 }
 
 body {
   background-color: var(--background);
-  color: #7952b3;
+  color: var(--body-color);
   margin: 30px auto;
   max-width: 600px;
 }
@@ -21,7 +22,7 @@ h1 {
 input {
   background: transparent;
   border: none;
-  border-bottom: 2px solid var(--body);
+  border-bottom: 2px solid var(--accent-color);
   padding: 2px 200px;
   font-size: 17px;
   text-align: center;
@@ -30,9 +31,9 @@ input {
 }
 
 input:focus {
-  color: var(--body);
+  color: var(--accent-color);
   border: none;
-  border-bottom: 2px solid var(--body);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 a {
@@ -41,10 +42,19 @@ a {
 }
 
 a:hover {
-  color: #7952b3;
+  color: var(--body-color);
   text-decoration: underline;
 }
 
 .audio {
   padding-left: 0;
+  color: var(--body-color);
+}
+
+small a {
+  color: var(--accent-color);
+}
+
+small {
+  padding-left: 440px;
 }

@@ -8,10 +8,10 @@ export default function MeaningCard(props) {
       {props.property.meanings.map(function (meaning, index) {
         return (
           <div className="card card-body bg-dark mb-4" key={index}>
-            <h3 className="card-title">{meaning.partOfSpeech}</h3>
+            <h3 className="card-title partOfSpeec">{meaning.partOfSpeech}</h3>
             {meaning.definitions.map(function (definition, index) {
               return (
-                <div className="card-text mb-2" key={index}>
+                <div className="card-text mb-3" key={index}>
                   {definition.definition}
                   <div>
                     <em>{definition.example}</em>

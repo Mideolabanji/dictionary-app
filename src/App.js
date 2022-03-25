@@ -13,7 +13,7 @@ export default function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Coded
+          coded
         </a>{" "}
         by{" "}
         <a
@@ -21,7 +21,7 @@ export default function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Olamide Olabanji
+          mide olabanji
         </a>
       </small>
     </div>
