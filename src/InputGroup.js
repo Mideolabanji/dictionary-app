@@ -25,13 +25,17 @@ export default function InputGroup() {
   return (
     <div className="InputGroup">
       <form onSubmit={handleSearch}>
+        <FontAwesomeIcon
+          icon={faMagnifyingGlass}
+          type="submit"
+          className="icon"
+        />
         <input
           onChange={updateKeywordDetails}
           type="search"
           placeholder="Search for a word..."
           className="mb-5 search"
         />
-        <FontAwesomeIcon icon={faMagnifyingGlass} size="1x" />
       </form>
       <Body property={data} />
     </div>
