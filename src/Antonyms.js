@@ -5,13 +5,15 @@ export default function Antonyms(props) {
     return (
       <div>
         <strong>Opposite:</strong>{" "}
-        {props.property.map(function (antonym, index) {
-          return (
-            <span key={index} className="thesaurus">
-              {antonym}{" "}
-            </span>
-          );
-        })}
+        <a>
+          {props.property.map(function (antonym, index) {
+            return (
+              <span key={index} className="thesaurus">
+                {antonym}{" "}
+              </span>
+            );
+          })}
+        </a>
       </div>
     );
   } else {
