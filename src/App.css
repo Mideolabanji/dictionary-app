@@ -70,6 +70,18 @@ small {
   margin-right: 6px;
 }
 
+.img-row {
+  margin: 10px 0 0;
+}
+
+.image {
+  margin-bottom: 10px;
+}
+
+.img-radius {
+  border-radius: 4px;
+}
+
 @media (max-width: 576px) {
   h1 {
     margin-top: 40px;
@@ -89,5 +101,9 @@ small {
 
   .Body {
     margin: 0 15px;
+  }
+
+  .img-card {
+    margin: 15px;
   }
 }
