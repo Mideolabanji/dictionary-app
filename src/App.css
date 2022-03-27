@@ -123,7 +123,7 @@ small {
   }
 
   .search-icon {
-    background: none;
-    font-size: 12px;
+    background-color: #212529;
+    font-size: 11px;
   }
 }
