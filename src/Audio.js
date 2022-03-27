@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 export default function Audio(props) {
   if (props.property) {
@@ -9,7 +11,11 @@ export default function Audio(props) {
         rel="noreferrer"
         className="audio"
       >
-        Listen
+        <FontAwesomeIcon
+          icon={faVolumeHigh}
+          className="volume-icon"
+          vertical-align="0em"
+        />
       </a>
     );
   } else {

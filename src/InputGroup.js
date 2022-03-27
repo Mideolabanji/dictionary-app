@@ -39,7 +39,8 @@ export default function InputGroup() {
         <FontAwesomeIcon
           icon={faMagnifyingGlass}
           type="submit"
-          className="icon"
+          className="search-icon"
+          vertical-align="0em"
         />
         <input
           onChange={updateKeywordDetails}

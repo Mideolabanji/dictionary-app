@@ -50,8 +50,15 @@ a:hover {
 }
 
 .audio {
-  padding-left: 0;
   color: var(--body-color);
+  padding: 2px 3px;
+  margin-top: 2px;
+}
+
+.audio:hover {
+  text-decoration: none;
+  background-color: #212529;
+  border-radius: 4px;
 }
 
 small a {
@@ -62,8 +69,12 @@ small {
   padding-left: 440px;
 }
 
-.icon {
+.search-icon {
   font-size: 18px;
+}
+
+.volume-icon {
+  font-size: 14px;
 }
 
 .thesaurus {
