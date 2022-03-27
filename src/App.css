@@ -117,4 +117,13 @@ small {
   .img-card {
     margin: 15px;
   }
+
+  input:focus {
+    outline: none;
+  }
+
+  .search-icon {
+    background: none;
+    font-size: 10px;
+  }
 }
