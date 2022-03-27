@@ -4,7 +4,6 @@ import Audio from "./Audio";
 
 export default function Body(props) {
   if (props.property) {
-    console.log(props.property.phonetics);
     return (
       <div className="Body">
         <h1 className="word">{props.property.word}</h1>
