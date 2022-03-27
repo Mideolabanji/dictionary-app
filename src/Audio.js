@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 export default function Audio(props) {
+  console.log(props.property);
   if (props.property) {
     return (
       <a

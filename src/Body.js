@@ -4,13 +4,19 @@ import Audio from "./Audio";
 
 export default function Body(props) {
   if (props.property) {
+    console.log(props.property.phonetics);
     return (
       <div className="Body">
         <h1 className="word">{props.property.word}</h1>
-        <p className="mb-4">
-          {props.property.phonetic}{" "}
-          <Audio property={props.property.phonetics[0].audio} />
-        </p>
+        <div className="mb-4">
+          {props.property.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                {phonetic.text} <Audio property={phonetic.audio} />
+              </div>
+            );
+          })}{" "}
+        </div>
         <MeaningCard property={props.property} />
       </div>
     );
